@@ -76,9 +76,13 @@ if ( ! function_exists( 'odin_setup_features' ) ) {
 		/**
 		 * Register nav menus.
 		 */
-		register_nav_menus(
-			array(
-				'main-menu' => __( 'Main Menu', 'odin' )
+		register_nav_menus (
+			array (
+				'principal' => __( 'Menu Principal', 'odin' ),
+					  'col-1' => __( 'Menu Footer Coluna 1', 'odin' ),
+					  'col-2' => __( 'Menu Footer Coluna 2', 'odin' ),
+					  'col-3' => __( 'Menu Footer Coluna 3', 'odin' ),
+						'mobile' => __( 'Menu Mobile', 'odin' )
 			)
 		);
 

@@ -1,0 +1,68 @@
+@font-face {
+  font-family: DMRegular;
+  src: url(fonts/DMSerifDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: DMItalic;
+  src: url(fonts/DMSerifDisplay-Italic.ttf);
+}
+@font-face {
+  font-family: TekoMedium;
+  src: url(fonts/Teko-Medium.ttf);
+}
+@font-face {
+  font-family: TekoRegular;
+  src: url(fonts/Teko-Regular.ttf);
+}
+h1, h2, h3, h4, h5, span, p, a, button, ul, li, strong{
+	font-family: TekoRegular, sans-serif;
+}
+
+.main-menu{
+  background-color: #000;
+}
+.main-menu .container{
+  display: flex;
+  height: 120px;
+  align-items: center;
+}
+.menu-itens{
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  justify-content: right;
+  height: 100%;
+}
+
+.dropdown-menu{
+  display: none;
+}
+
+ul{
+  display: inline-flex;
+  list-style: none;
+  margin: 0;
+}
+ul li a{
+  color: #C59698;
+  text-decoration: none;
+  padding: 0 15px;
+  font-size: 32px;
+}
+ul li a:hover{
+  color: #A91314;
+}
+.especialidades{
+  background: #A91314;
+  border-radius: 20px;
+}
+.especialidades a{
+  color: #fff !important;
+}
+.especialidades a:hover{
+  color:#fff !important;
+}
+
+.dropdown-toggle::after{
+  display: none;
+}
