@@ -16,7 +16,8 @@
     box-shadow: 0px 0px 20px #6633CC;
     border: 5px solid #6633CC;
     border-radius: 19px;
-    width: 300px;
+    width: 333px;
+    height: 214px;
 }
 .card-servico:hover{
     border: 5px solid #1AC0C1;
@@ -41,6 +42,7 @@
     margin: 0;
     text-align: center;
     font-size: 27px;
+    line-height: 1;
 }
 .conteudo-card-servico img{
     width: 100px;

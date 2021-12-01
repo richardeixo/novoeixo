@@ -31,7 +31,7 @@
             <div class="card-servico">
                 <div class="conteudo-card-servico">
                     <img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/ico-exemplo.png">
-                    <p>Inbound Marketing</p>
+                    <p>Redes Sociais</p>
                 </div>
             </div>
         </a>
@@ -39,7 +39,7 @@
             <div class="card-servico">
                 <div class="conteudo-card-servico">
                     <img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/ico-exemplo.png">
-                    <p>SEO</p>
+                    <p>Criação e Desenvolvimento de Site</p>
                 </div>
             </div>
         </a>
