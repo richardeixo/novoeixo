@@ -1,0 +1,19 @@
+.heroimg {
+    background: url("../img/bg-home.png");
+    background-size: cover;
+    height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.texto-hero h1 {
+    color: white;
+    font-size: 7rem;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+.texto-hero span{
+    font-size: 4rem;
+}

@@ -1,0 +1,49 @@
+
+.slider-bt .bg-slider-full-1{
+    background-image: url(../img/bg-audiofisa.png);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+
+
+    display: flex;
+    align-items: center;
+}
+.slider-bt .bg-slider-full-2{
+    background-image: url(../img/bg-astronautas.png);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+
+
+    display: flex;
+    align-items: center;
+}
+.slider-bt .fluido-slider{
+    padding-right: unset !important;
+    padding-left: unset !important;
+}
+.slider-bt .slider-full-txt {
+    max-width: 379px;
+}
+.slider-bt .slider-full-txt h2 {
+    color: white;
+    font-size: 7rem;
+}
+.slider-bt .slider-full-txt p {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 100;
+}
+.slider-bt .btn-slider-full{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 1.8rem;
+}
+.slider-bt .conteudo-slider-full{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
