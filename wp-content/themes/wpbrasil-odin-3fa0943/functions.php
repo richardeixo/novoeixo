@@ -16,13 +16,24 @@
 /**
  * Sets content width.
  */
- 
+/*$device = 0;
+$widthpg = "<script>document.write(screen.width);</script>";
+
+if ($widthpg <= '1000') 
+{
+    $device = "mobile";
+}elseif(($widthpg >= '1001') && ($widthpg <= '1100')) {
+    $device = "tablet";
+}else{
+    $device = "desktop";
+ }*/
+
  $device = 0;
 $iphone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
 $android = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
 $palmpre = strpos($_SERVER['HTTP_USER_AGENT'],"webOS");
 $berry = strpos($_SERVER['HTTP_USER_AGENT'],"BlackBerry");
-$ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
+$ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod"); 
 
 if ($iphone || $android || $palmpre || $ipod || $berry == true) 
 {

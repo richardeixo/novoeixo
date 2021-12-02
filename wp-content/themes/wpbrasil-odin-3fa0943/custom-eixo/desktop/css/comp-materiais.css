@@ -1,0 +1,22 @@
+.materiais{
+    background: transparent linear-gradient(180deg, #1AC0C1 0%, #339191 100%) 0% 0% no-repeat padding-box; 
+}
+.container-materiais {
+    padding-top: 50px;
+    padding-bottom: 150px;
+    height: 100%;
+}
+.materiais a {
+    margin-right: 43px;
+}
+.materiais .is-selected img{
+    transform: scale(1.5);
+}
+.materiais .flickity-button{
+    background: transparent;
+}
+.materiais h2{
+    text-align: center;
+    font-size: 70px;
+    color: #FFF;
+}
