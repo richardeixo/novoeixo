@@ -1,0 +1,33 @@
+#footer{
+    background: #000;
+    position: unset;
+    height: 100%;
+    text-align: unset;
+}
+footer ul li a{
+    font-size: 21px;
+    text-decoration: none;
+}
+#footer ul li a::after{
+    content: ">";
+    float: right;
+    position: absolute;
+    right: 50px;
+}
+.container-footer {
+    padding: 50px 20px;
+}
+.selos{
+    display: flex;
+    flex-flow: wrap;
+    gap: 20px;
+}
+.redes-sociais{
+    padding: 30px 0;
+}
+.redes-sociais a{
+    padding: 10px;
+}
+.redes-sociais a img{
+    margin: 10px 0;
+}

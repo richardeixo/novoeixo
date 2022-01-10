@@ -5,15 +5,15 @@
 }
 .videos-recomendados a{
     width: 45%;
-    height: 250px;
+    height: 300px;
     margin-right: 43px;
     background: #8C8;
     border-radius: 25px;
-    box-shadow: 0px 9px 17px #00000080;
+    /*box-shadow: 0px 9px 17px #00000080;*/
     margin-top: 20px;
 }
 .flickity-viewport{
-    height: 310px !important;
+    height: 360px !important;
 }
 .flickity-prev-next-button{
     top: 105%;

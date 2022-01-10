@@ -1,33 +1,35 @@
-.container-videos{
+.container-clientes{
     padding-top: 120px;
-    padding-bottom: 200px;
-    height: 100%;
+     height: 100%;
 }
-.videos-recomendados a{
-    width: 45%;
-    height: 250px;
-    margin-right: 43px;
-    background: #8C8;
-    border-radius: 25px;
-    box-shadow: 0px 9px 17px #00000080;
-    margin-top: 20px;
-}
-.flickity-viewport{
-    height: 310px !important;
-}
-.flickity-prev-next-button{
-    top: 105%;
-    height: 60px;
-    width: 60px;
-}
-.flickity-prev-next-button .next, .flickity-prev-next-button .previous{
-    height: 60px;
-    width: 60px;
-}
-.flickity-page-dots{
-    display: none;
-}
-.videos-recomendados h2{
+
+.clientes h2{
     text-align: center;
     font-size: 70px;
+}
+.clientes{
+    background: url(../imagens/clientes.png);
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    background-size: contain;
+}
+.clientes .flickity-viewport{
+    height: 600px !important;
+}
+.clientes .lista-clientes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.clientes .flickity-prev-next-button{
+    top: 50%;
+}
+.clientes .previous{
+    transform: translateX(-50px);
+}
+.clientes .next{
+    transform: translateX(50px);
+}
+.lista-clientes img {
+    padding: 0px 11px;
 }

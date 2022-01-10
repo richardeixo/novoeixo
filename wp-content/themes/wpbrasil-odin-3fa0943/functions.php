@@ -348,3 +348,91 @@ if ( is_woocommerce_activated() ) {
 	require get_template_directory() . '/inc/woocommerce/functions.php';
 	require get_template_directory() . '/inc/woocommerce/template-tags.php';
 }
+
+function post_materiais() {
+    $materiais = new Odin_Post_Type(
+        'Materiais Gratuitos', // Nome (Singular) do Post Type.
+        'materiais-gratuitos' // Slug do Post Type.
+    );
+
+    $materiais->set_labels(
+        array(
+            'menu_name' => __( 'Materiais Gratuitos', 'odin' )
+        )
+    );
+
+    $materiais->set_arguments(
+        array(
+            'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt','custom-fields' ),
+            'menu_icon' => 'dashicons-testimonial'
+        )
+    );
+}
+
+add_action( 'init', 'post_materiais', 1 );
+
+function post_videos() {
+    $videos = new Odin_Post_Type(
+        'Videos', // Nome (Singular) do Post Type.
+        'videos' // Slug do Post Type.
+    );
+
+    $videos->set_labels(
+        array(
+            'menu_name' => __( 'Videos', 'odin' )
+        )
+    );
+
+    $videos->set_arguments(
+        array(
+            'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt','custom-fields' ),
+            'menu_icon' => 'dashicons-testimonial'
+        )
+    );
+}
+
+add_action( 'init', 'post_videos', 1 );
+
+function post_clientes() {
+    $clientes = new Odin_Post_Type(
+        'Clientes', // Nome (Singular) do Post Type.
+        'clientes' // Slug do Post Type.
+    );
+
+    $clientes->set_labels(
+        array(
+            'menu_name' => __( 'Clientes', 'odin' )
+        )
+    );
+
+    $clientes->set_arguments(
+        array(
+            'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt','custom-fields' ),
+            'menu_icon' => 'dashicons-testimonial'
+        )
+    );
+}
+
+add_action( 'init', 'post_clientes', 1 );
+
+function post_clientesm() {
+    $clientesm = new Odin_Post_Type(
+        'Clientes mobile', // Nome (Singular) do Post Type.
+        'clientes-mobile' // Slug do Post Type.
+    );
+
+    $clientesm->set_labels(
+        array(
+            'menu_name' => __( 'Clientes Mobile', 'odin' )
+        )
+    );
+
+    $clientesm->set_arguments(
+        array(
+            'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt','custom-fields' ),
+            'menu_icon' => 'dashicons-testimonial'
+        )
+    );
+}
+
+add_action( 'init', 'post_clientesm', 1 );

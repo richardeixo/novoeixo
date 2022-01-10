@@ -1,0 +1,17 @@
+.imgbgheromateriais {
+    background: url('../img/materiais.png');
+    height: 77vh;
+    display: flex;
+    align-items: center;
+}
+
+.texto-hero-materiais {
+    color: white;
+}
+
+.texto-hero-materiais h2 {
+    font-size: 5rem;
+}
+.texto-hero-materiais p {
+    font-size: 3rem;
+}

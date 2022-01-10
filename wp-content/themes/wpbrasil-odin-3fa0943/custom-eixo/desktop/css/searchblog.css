@@ -1,0 +1,37 @@
+.search-blog{
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.search-blog h2{
+    font-family: DMRegular;
+    font-size: 50px;
+}
+.search-blog .searchbar{
+    position: relative;
+    left: 20px;
+}
+.search-blog .searchbar input{
+    border: none;
+    background: #2121;
+    border-radius: 20px;
+    height: 40px;    
+    width: 520px;
+    padding-left: 30px;
+}
+.search-blog .searchbar button{
+    background: #6633CC;
+    border: none;
+    width: 60px;
+    height: 40px;    
+    margin-top: -5px;
+    border-radius: 0px 20px 20px 0;
+    position: relative;
+    right: 35px;
+}
+.search-blog .searchbar button img{
+    width: 24px;
+}
+.search-blog .searchbar input:focus-visible{
+    outline: none;
+}

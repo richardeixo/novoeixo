@@ -1,0 +1,32 @@
+.textomeiotxt h2 {
+    font-size: 7rem;
+    font-weight: bold;
+    line-height: 100px;
+}
+
+.rowtxtmeio {
+    align-items: center;
+    justify-content: center;
+}
+
+.colmdimg {
+    text-align: right;
+}
+
+.colmdimg img {
+    max-width: 70
+}
+
+.textomeio {
+    margin-bottom: 80px;
+}
+.txtsmall p {
+    font-size: 2rem;
+    line-height: 40px;
+}
+
+.txtsmall span {
+    color: #6633cc;
+    font-size: 5rem;
+    font-weight: bold;
+}

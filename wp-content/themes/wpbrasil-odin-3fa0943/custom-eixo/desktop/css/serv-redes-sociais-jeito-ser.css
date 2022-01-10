@@ -1,0 +1,92 @@
+.jeitoser {
+    background-color: #6633CC;
+    color: white;
+    text-align: center;
+
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.jeitoser h2 {
+    font-size: 7rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.txt-be {
+    max-width: 285px;
+    margin: auto;
+}
+.txt-be h3 {
+    font-size: 3rem;
+}
+.txt-be p {
+    font-size: 1.5rem;
+}
+
+body > div.jeitoser > div > div > div:nth-child(3){
+    margin-top: 50px;
+    margin-bottom: 85px;
+}
+
+body > div.jeitoser > div > div > div:nth-child(2) > div:nth-child(1) > div {
+
+    background: url("http://localhost/novoeixo/wp-content/uploads/2021/12/Grupo-733.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+body > div.jeitoser > div > div > div:nth-child(2) > div:nth-child(2) > div {
+
+    background: url("http://localhost/novoeixo/wp-content/uploads/2021/12/Caminho-803.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+body > div.jeitoser > div > div > div:nth-child(2) > div:nth-child(3) > div {
+
+    background: url("http://localhost/novoeixo/wp-content/uploads/2021/12/Caminho-794.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+body > div.jeitoser > div > div > div:nth-child(3) > div:nth-child(1) > div {
+
+    background: url("http://localhost/novoeixo/wp-content/uploads/2021/12/Grupo-730.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+body > div.jeitoser > div > div > div:nth-child(3) > div:nth-child(2) > div {
+
+    background: url("http://localhost/novoeixo/wp-content/uploads/2021/12/Grupo-731.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+body > div.jeitoser > div > div > div:nth-child(3) > div:nth-child(3) > div {
+
+    background: url("http://localhost/novoeixo/wp-content/uploads/2021/12/Grupo-1233.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}

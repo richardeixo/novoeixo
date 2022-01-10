@@ -1,6 +1,7 @@
 .servicos{
-    background: #120a8f;
-    height: 60vw;
+    background: url(../imagens/servicos-back.png);
+    height: 780px;
+    background-size: cover;
 }
 .servicos h2{
     color: #fff;

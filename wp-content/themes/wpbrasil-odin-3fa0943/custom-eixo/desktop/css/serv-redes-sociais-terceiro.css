@@ -1,0 +1,19 @@
+.texto-terceiro h2 {
+    font-size: 7rem;
+    font-weight: bold;
+    line-height: 100px;
+}
+
+.texto-terceiro p {
+    font-size: 2.8rem;
+    line-height: 40px;
+}
+
+.container-terceiro {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container-terceiro {
+    margin-bottom: 80px;
+}

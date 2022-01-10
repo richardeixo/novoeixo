@@ -1,0 +1,21 @@
+.ctacontato {
+    margin-bottom: 120px;
+    background: #1AC0C1;
+    color: white;
+    padding: 50px;
+}
+.txt-ctncontato p {
+    margin-bottom: -10px;
+    font-size: 1.7rem;
+}
+.txt-ctncontato h2 {
+    font-size: 5rem;
+}
+.txt-ctncontato button {
+    background: #6633cc;
+    color: white;
+    border: none;
+    font-size: 1.7rem;
+    padding: 10px 40px;
+    border-radius: 80px;
+}

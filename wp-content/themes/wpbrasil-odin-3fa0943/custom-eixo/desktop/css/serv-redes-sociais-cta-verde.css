@@ -1,0 +1,22 @@
+.ctaverde {
+    background-color: #1AC0C1;
+    padding: 45px;
+}
+.cta {
+    margin-bottom: 180px;
+}
+
+.ctaverde button {
+    color: white;
+    background: #6633cc;
+    border: none;
+    font-size: 3rem;
+    padding: 5px 70px;
+    border-radius: 80px;
+}
+.containerverde {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

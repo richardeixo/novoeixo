@@ -1,0 +1,38 @@
+.container-clientes{
+    padding-top: 120px;
+     height: 100%;
+}
+
+.clientes h2{
+    text-align: center;
+    font-size: 70px;
+}
+.clientes{
+    background: url(../imagens/clientes.png);
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    background-size: contain;
+}
+.clientes .flickity-viewport{
+    height: 600px !important;
+}
+.clientes .lista-clientes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.clientes .flickity-prev-next-button{
+    top: 25%;
+}
+.clientes .previous{
+    transform: translateX(0);
+}
+.clientes .next{
+    transform: translateX(0);
+}
+.lista-clientes img {
+    padding: 0px 11px;
+}
+.clientes .carousel-cell{
+    width: 100%;
+}

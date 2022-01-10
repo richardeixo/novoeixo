@@ -1,0 +1,9 @@
+.linharoxa {
+    background: #6633CC;
+    color: white;
+    margin: 80px 0px;
+    padding: 40px 0px;
+}
+.textos-roxo p {
+    font-size: 1.7rem;
+}

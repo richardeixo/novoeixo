@@ -1,0 +1,176 @@
+@font-face {
+  font-family: DMRegular;
+  src: url(fonts/DMSerifDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: DMItalic;
+  src: url(fonts/DMSerifDisplay-Italic.ttf);
+}
+@font-face {
+  font-family: TekoMedium;
+  src: url(fonts/Teko-Medium.ttf);
+}
+@font-face {
+  font-family: TekoRegular;
+  src: url(fonts/Teko-Regular.ttf);
+}
+h1, h2, h3, h4, h5, span, p, a, button, ul, li, strong{
+	font-family: TekoRegular, sans-serif;
+}
+
+.navbar-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+  }
+  .navbar-brand {
+    padding: 0;
+    display: flex;
+    width: 55px;
+    height: 31px;
+    margin-left: 30px;
+    margin-right: 0;
+  }
+  .navbar-brand img {
+    max-width: 90px;
+  }
+  .btn-menu-agendar {
+    max-width: 125px;
+    border: none;
+    background: #A91314;
+    border-radius: 80px;
+    padding: 0px 6px;
+    font-size: 16px;
+    color: white;
+  }
+  #bs-example-navbar-collapse-1 {
+    height: 100vh;
+    background-color: #2575bb;
+  }
+  #tab1default > ul > li > a {
+    color: white;
+    font-size: 16px;
+  }
+  #tab2default > ul > li > a {
+    color: white;
+    font-size: 16px;
+  }
+  #bs-example-navbar-collapse-1 > div > div > div.panel-heading > ul {
+    border: none;
+  }
+  #tab1default{
+    padding-left: 15px;
+  }
+  #tab2default{
+    padding-left: 15px;
+  }
+  #bs-example-navbar-collapse-1 {
+    padding-top: 10px;
+  }
+  #bs-example-navbar-collapse-1 > div > div > div.panel-heading > ul > li > a {
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid white;
+    color: white;
+  }
+  #bs-example-navbar-collapse-1 > div > div > div.panel-heading > ul > li.active > a {
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #214a87;
+    color: #214a87;
+  }
+  
+  #bs-example-navbar-collapse-1 > div > div{
+    border: none !important;
+    background: #2575bb !important;
+  }
+  #bs-example-navbar-collapse-1 > div > div > div.panel-heading {
+    border: none !important;
+    background: #2575bb !important;
+    padding: 0 10px;
+  }
+  
+  .navbar-default .navbar-nav>li>a {
+      color: white;
+      font-size: 16px;
+  }
+  
+  
+  #tab12default a {
+      color: white;
+      font-size: 16px;
+      
+      padding-top: 10px;
+      padding-bottom: 10px;
+      line-height: 44px;
+  }
+  
+  #bs-example-navbar-collapse-1 > div > div > div.panel-heading > ul > li:nth-child(2) {
+      display: none !important;
+  }
+  .dropdown-menu {
+      display: none;
+      /* float: left; */
+      /* min-width: 160px; */
+      padding: 5px 0;
+      font-size: 14px;
+      text-align: left;
+      list-style: none;
+      background-color: #1a6bb1;
+      position: unset;
+      float: unset;
+      border: none;
+      box-shadow: none;
+  }
+  .dropdown-backdrop {
+      display: none;
+  }
+  .navbar-collapse {
+      padding: 0;
+  }
+  .estilizamenu ul li a{
+      padding: 0 10px;
+  }
+  .navbar-default .navbar-toggle {
+    border: none;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 28px;
+    height: 4px;
+    border-radius: 18px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.agendar-link{
+    position: absolute;
+    right: 1rem;
+}
+.navbar-default {
+    background-color: #000; 
+    border: none; 
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+.h-search{
+  display: flex;
+}
+.h-search input{
+  background: #FFF;
+  opacity: 0.15;
+  border-radius: 20px;
+}
+.h-search button{
+  background: transparent;
+  border: none;
+  position: relative;
+  right: 40px;
+}

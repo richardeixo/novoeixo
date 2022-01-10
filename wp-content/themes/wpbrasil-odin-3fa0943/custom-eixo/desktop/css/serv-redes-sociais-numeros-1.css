@@ -1,0 +1,48 @@
+.container-numeros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.linhanumero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.numero p {
+    background: #6633cc;
+    color: white;
+    font-size: 12rem;
+    width: 260px;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.textonumber {
+    max-width: 985px;
+}
+
+.textonumber h3 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+.textonumber p {
+    font-size: 1.7rem;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.textonumber span {
+    color: black;
+    font-size: 1.5rem;
+    line-height: 25px;
+    margin-top: 55px;
+}

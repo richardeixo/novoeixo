@@ -28,12 +28,42 @@
 	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/comp-videos-r.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/comp-materiais.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/comp-clientes.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/hero.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/heroblog.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/roxoblog.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/sliderhome.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/ultimasblog.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/comp-premiord.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/primeiraplatinum.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/materiais-heroimg.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/materiais-destaque.css">
+	
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/materiais-search.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/materiais-estrategiasmkt.css">
+	
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/serv-redes-sociais-text.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/serv-redes-sociais-text-roxo.css">
+	
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/serv-redes-sociais-terceiro.css">
+	
 
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/serv-redes-sociais-numeros-1.css">
+	
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/serv-redes-sociais-cta-verde.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/serv-redes-sociais-texto-meio.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/serv-redes-sociais-jeito-ser.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/serv-redes-sociais-agencia-resultado.css">
+	
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/serv-redes-sociais-diferenciais.css">
+
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/serv-redes-sociais-form.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/cases-hero.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/cases-texto.css">
+	
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/cases-lista.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/cases-ctacontato.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/css/searchblog.css">
 
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script  type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
@@ -46,7 +76,7 @@
 <div class="main-menu">
 		<div class="container">
 			<div class="menu-logo">
-				<a href="<?php home_url() ?>/atrios/"><img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/logo-eixo.png"></a>
+				<a href="<?php home_url() ?>/novoeixo/"><img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/logo-eixo.svg"></a>
 			</div>
 			<div class="menu-itens">
 			<?php

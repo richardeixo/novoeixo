@@ -47,10 +47,20 @@ h1, h2, h3, h4, h5, span, p, a, button, ul, li, strong{
 }
 
 #menu-principal .dropdown-menu li a{
-  font-size: 19px;
+  font-size: 21px;
+  padding: 3px 15px;
+  border: none;
 }
 
-#menu-principal .dropdown-menu li a:hover{
+#menu-principal .dropdown-menu li{
+  border-bottom: 1px solid rgb(255,255,255, 0.4);
+}
+
+#menu-principal .dropdown-menu li:last-child{
+  border-bottom: none;
+}
+
+#menu-principal .dropdown-menu li a:hover, #menu-principal .dropdown-menu li a:focus{
   background-color: #6633CC;
 }
 
@@ -65,11 +75,11 @@ h1, h2, h3, h4, h5, span, p, a, button, ul, li, strong{
   padding: 0 15px;
   font-size: 32px;
 }
-#menu-principal li a .active{
-  border-bottom:2px solid #6633CC;
+#menu-principal .open a{
+  border-bottom:4px solid #6633CC;
 }
 #menu-principal li a:hover{
-  border-bottom:2px solid #6633CC;
+  border-bottom:4px solid #6633CC;
 }
 .btn-orcamento{
   background: #6633CC;

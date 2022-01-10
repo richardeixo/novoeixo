@@ -1,0 +1,26 @@
+.textos-materiais h1 {
+    font-size: 7rem;
+    color: black;
+    font-weight: bold;
+}
+.textos-materiais {
+    max-width: 850px;
+}
+.textos-materiais p {
+    font-size: 1.6rem;
+    color: black;
+    line-height: 35px;
+}
+.textos-materiais h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+.textos-materiais button {
+    border: none;
+    color: white;
+    background: #1AC0C1;
+    border-radius: 80px;
+    font-size: 1.8rem;
+    padding: 10px 30px;
+}

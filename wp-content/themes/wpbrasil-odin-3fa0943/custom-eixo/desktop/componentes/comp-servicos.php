@@ -4,7 +4,7 @@
         <a href="">
             <div class="card-servico">
                 <div class="conteudo-card-servico">
-                    <img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/ico-exemplo.png">
+                    <img height="110px" src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/ico-inbound.svg">
                     <p>Inbound Marketing</p>
                 </div>
             </div>
@@ -12,7 +12,7 @@
         <a href="">
             <div class="card-servico">
                 <div class="conteudo-card-servico">
-                    <img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/ico-exemplo.png">
+                    <img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/ico-seo.svg">
                     <p>SEO</p>
                 </div>
             </div>
@@ -20,7 +20,7 @@
         <a href="">
             <div class="card-servico">
                 <div class="conteudo-card-servico">
-                    <img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/ico-exemplo.png">
+                    <img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/ico-midiapaga.svg">
                     <p>Mídia Paga</p>
                 </div>
             </div>
@@ -30,7 +30,7 @@
         <a href="">
             <div class="card-servico">
                 <div class="conteudo-card-servico">
-                    <img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/ico-exemplo.png">
+                    <img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/ico-redessociais.svg">
                     <p>Redes Sociais</p>
                 </div>
             </div>
@@ -38,7 +38,7 @@
         <a href="">
             <div class="card-servico">
                 <div class="conteudo-card-servico">
-                    <img src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/ico-exemplo.png">
+                    <img style="margin-top:-21px" src="<?php bloginfo('template_directory') ?>/custom-eixo/desktop/imagens/ico-sites.svg">
                     <p>Criação e Desenvolvimento de Site</p>
                 </div>
             </div>

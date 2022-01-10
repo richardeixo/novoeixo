@@ -1,0 +1,45 @@
+
+/*destaque*/
+.destaque {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.destaque img {
+    max-width: 57%;
+}
+.imagem-destaque {
+    background: #6633CC;
+    text-align: center;
+    border-radius: 80px 0px 0px 80px;
+}
+.destaque-txt h1{
+    color: black;
+    
+}
+.destaque-txt {
+    max-width: 520px;
+    margin: auto;
+}
+.destaque-txt p{
+    font-size: 2rem;    
+    line-height: 2.5rem;
+}
+.destaque-txt a{
+    font-size: 1.7rem;
+    color: var(--cinza);
+}
+.destaque-txt h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.alinha-linha {
+    display: flex;
+    align-items: center;
+}
+
+.destaque-txt a {
+    text-decoration: none;
+    background: #6633CC;
+    padding: 10px;
+    border-radius: 80px;
+}

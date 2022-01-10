@@ -1,0 +1,39 @@
+.containerlistacses {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.lista-cases {
+    margin-bottom: 120px;
+}
+.titulobgcase {
+    background: url("https://img4.goodfon.com/wallpaper/nbig/d/36/derevo-coffee-kofe.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0px 0px;
+    height: 320px;
+}
+.btncase {
+    text-align: center;    
+    padding: 20px 0px;
+
+}
+.btncase button {
+    background: #6633cc;
+    color: white;
+    border: none;
+    font-size: 1.7rem;
+    border-radius: 20px;
+}
+.card-case {
+    max-width: 380px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+}
+.titulobgcase h2 {
+    font-size: 3rem;
+    padding: 20px;
+}
